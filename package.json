@@ -1,7 +1,7 @@
 {
-  "name": "kjgum",
+  "name": "ChenLiu",
   "version": "1.0.0",
-  "description": "this is a portfolio site made by Kristin Gumbert.",
+  "description": "Chen's Portfolio Site.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kjgum/kjgum.git"
+    "url": "git+https://github.com/lcdantechen/Portfolio"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kjgum/kjgum/issues"
+    "url": "https://github.com/lcdantechen/Portfolio/issues"
   },
-  "homepage": "https://github.com/kjgum/kjgum#readme",
+  "homepage": "https://github.com/lcdantechen/Portfolio#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "dotenv": "^2.0.0",

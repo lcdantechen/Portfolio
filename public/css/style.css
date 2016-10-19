@@ -183,8 +183,8 @@ img {
     float: left;
     width: 100%;
     position: relative;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 @media screen and (max-width: 480px) {
@@ -267,12 +267,12 @@ img {
 }
 
 #header .navbar-brand {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     display: block;
     float: none !important;
     width: 400px;
-    margin: 0 auto;
+    
     /*text-transform: lowercase;*/
     letter-spacing: 2px;
     font-size: 20px;
@@ -384,7 +384,9 @@ img {
 }
 
 #main {
-    padding-top: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
 }
 
 #board .item {
@@ -616,7 +618,14 @@ a:hover, a:focus {
 body {
 
 
-    
+    background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #bdff9a, #8DC26F);
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;    
     font-family: 'Poiret One', cursive;
     color: #260d0d;
     /*font-size: 100%;*/
